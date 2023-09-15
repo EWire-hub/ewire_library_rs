@@ -38,7 +38,6 @@ jobs:
   deploy:
     needs: doc
     permissions:
-      contents: read
       pages: write
       id-token: write
     environment:
