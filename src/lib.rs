@@ -1,5 +1,5 @@
 /// 競プロ用ライブラリ
-/// todo()!
+/// todo: cumsum2d
 
 pub fn add(left: usize, right: usize) -> usize {
     left + right
