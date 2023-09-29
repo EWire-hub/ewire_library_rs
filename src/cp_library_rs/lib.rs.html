@@ -15,16 +15,10 @@
 <a href="#15" id="15">15</a>
 <a href="#16" id="16">16</a>
 <a href="#17" id="17">17</a>
-<a href="#18" id="18">18</a>
-<a href="#19" id="19">19</a>
-<a href="#20" id="20">20</a>
-<a href="#21" id="21">21</a>
 </pre></div><pre class="rust"><code><span class="doccomment">/// 競プロ用ライブラリ
 ///
 
-</span><span class="kw">pub use </span>tmp;
-
-<span class="kw">pub fn </span>add(left: usize, right: usize) -&gt; usize {
+</span><span class="kw">pub fn </span>add(left: usize, right: usize) -&gt; usize {
     left + right
 }
 
@@ -36,8 +30,6 @@
     </span><span class="kw">fn </span>it_works() {
         <span class="kw">let </span>result = add(<span class="number">2</span>, <span class="number">2</span>);
         <span class="macro">assert_eq!</span>(result, <span class="number">4</span>);
-        <span class="kw">let </span>result2 = tmp::sub(<span class="number">2</span>, <span class="number">2</span>);
-        <span class="macro">assert_eq!</span>(result2, <span class="number">0</span>);
     }
 }
 </code></pre></div></section></main></body></html>
