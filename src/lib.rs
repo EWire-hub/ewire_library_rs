@@ -1,6 +1,8 @@
 /// 競プロ用ライブラリ
 ///
 
+pub use tmp;
+
 pub fn add(left: usize, right: usize) -> usize {
     left + right
 }
