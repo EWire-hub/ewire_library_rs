@@ -9,8 +9,3 @@ description = "競技プログラミング用ライブラリ"
 
 [dependencies]
 is_prime = {path = "./crates/math/number_theory/is_prime" }
-
-[workspace]
-member = [
-    './crate/math/number_theory/*/'
-]
