@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"mod":["is_prime"]};
+window.SIDEBAR_ITEMS = {"mod":["is_prime_"]};
