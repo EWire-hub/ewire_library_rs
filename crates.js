@@ -1,1 +1,1 @@
-window.ALL_CRATES = ["mylib"];
+window.ALL_CRATES = ["cp_library_rs"];
