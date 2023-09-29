@@ -26,10 +26,10 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - name: Run doc
-      run: cd static && cargo doc --no-deps
+      run: cargo doc --no-deps
 
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v3
       with:
         github_token: ${{ secrets.GH_PAT }}
-        publish_dir: ./static/target/doc/
+        publish_dir: ./target/doc/
