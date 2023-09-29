@@ -26,7 +26,7 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - name: Run doc
-      run: cd static/mylib && cargo doc --no-deps
+      run: cd static && cargo doc --no-deps
 
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v3
