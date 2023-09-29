@@ -1,4 +1,4 @@
-name: Rust
+name: unit test & gen doc
 
 on:
   push:
