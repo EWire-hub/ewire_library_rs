@@ -1,3 +1,14 @@
+pub fn is_prime(x: i64) -> bool {
+    let mut i = 2;
+    while i * i <= x {
+        if x % i == 0 {
+            return false;
+        }
+        i += 1;
+    }
+    true
+}
+
 pub fn add(left: usize, right: usize) -> usize {
     left + right
 }
