@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"fn":["add","is_prime_"]};
+window.SIDEBAR_ITEMS = {"mod":["is_prime"]};
