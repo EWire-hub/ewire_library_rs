@@ -1,4 +1,4 @@
-/// 競プロ用ライブラリ
+//! 競プロ用ライブラリ
 
 pub fn add(left: usize, right: usize) -> usize {
     left + right
