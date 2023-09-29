@@ -2,8 +2,12 @@
 <a href="#2" id="2">2</a>
 <a href="#3" id="3">3</a>
 <a href="#4" id="4">4</a>
+<a href="#5" id="5">5</a>
+<a href="#6" id="6">6</a>
 </pre></div><pre class="rust"><code><span class="doccomment">//! 競プロ用ライブラリ
 
-</span><span class="attr">#[doc(inline)]
-</span><span class="kw">pub use </span>math_number_theory;
+</span><span class="kw">pub mod </span>math_number_theory;
+
+<span class="attr">#[doc(inline)]
+</span><span class="kw">pub use </span>math_number_theory::<span class="kw-2">*</span>;
 </code></pre></div></section></main></body></html>

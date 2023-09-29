@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"mod":["math_number_theory"]};
+window.SIDEBAR_ITEMS = {"mod":["is_prime","math_number_theory"]};
