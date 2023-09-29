@@ -15,5 +15,7 @@ mod tests {
     fn it_works() {
         let result = add(2, 2);
         assert_eq!(result, 4);
+        let result2 = tmp::sub(2, 2);
+        assert_eq!(result2, 0);
     }
 }
