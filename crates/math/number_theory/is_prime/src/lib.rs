@@ -1,4 +1,4 @@
-pub fn is_prime(x: i64) -> bool {
+pub fn is_prime_(x: i64) -> bool {
     let mut i = 2;
     while i * i <= x {
         if x % i == 0 {
