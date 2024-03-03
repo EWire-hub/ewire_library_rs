@@ -1,3 +1,4 @@
+//! 素数判定
 pub fn is_prime(x: i64) -> bool {
     let mut i = 2;
     while i * i <= x {
